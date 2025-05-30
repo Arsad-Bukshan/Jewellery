@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+     <!-- Nav start -->
+
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">
+                <span class="logo-text">RVA Jewellers</span>
+            </a>
+
+           <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link ">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./product.html" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./event.html" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contact.html" class="nav-link active">Contact Us</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <i class="bi bi-list"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="overlay"></div>
+
+
+    <!-- Nav end -->
+
+
+    <!-- cursor start -->
+
+
+    <div class="cursor-dot"></div>
+
+
+    <!-- cursor end -->
+
+
+<!-- Contact form start -->
+
+
+
+<div class="contact"><h2 >Contact Us</h2>
+<p >Any question or remarks? Just write us a message!</p></div>
+
+
+<div class="container">
+  <div class="contact-left">
+    <div class="contact-left-content">
+      <h2>Contact Information</h2>
+      <h5>Say something to start a live chat!</h5> 
+      <p><i class="fas fa-phone"></i><a href="tel:+917397238290"">+91 73972 38290</a></p>
+      <p><i class="fas fa-envelope"></i><a href="mailto:RVJajewellers@gmail.com">RVJajewellers@gmail.com</a></p>
+      <p><i class="fas fa-location-dot"></i> 6/21, South street, periyar, Madurai-625001</p>
+    </div>
+  </div>
+
+  <div class="contact-right">
+    <form id="contactForm">
+      <label>First Name</label>
+      <input type="text" id="firstName">
+      <div class="error" id="firstNameError"></div>
+
+      <label>Last Name</label>
+      <input type="text" id="lastName">
+      <div class="error" id="lastNameError"></div>
+
+      <label>Email</label>
+      <input type="email" id="email">
+      <div class="error" id="emailError"></div>
+
+      <label>Phone Number</label>
+      <input type="text" id="phone">
+      <div class="error" id="phoneError"></div>
+
+      <label>Select Subject:</label>
+      <div class="radio-group">
+        <label><input type="radio" name="subject" value="General"> General Inquiry</label>
+        <label><input type="radio" name="subject" value="Gold"> Rate of Gold</label>
+        <label><input type="radio" name="subject" value="Exchange"> Exchange Offer</label>
+        <label><input type="radio" name="subject" value="Franchise"> Franchise</label>
+      </div>
+      <div class="error" id="subjectError"></div>
+
+      <label>Message</label>
+      <textarea rows="4" id="message"></textarea>
+      <div class="error" id="messageError"></div>
+
+      <button class="submit-btn" type="submit">Send Message</button>
+      <div id="formMessage"></div>
+    </form>
+  </div>
+</div>
+
+
+
+
+<!-- contact form end -->
+
+
+
+
+<!-- Accordian start-->
+
+
+
+    <div class="container-one">
+        <h1>Frequently Asked Questions</h1>
+        <div class="accordion">
+            <div class="accordion-item">
+                <h3 class="accordion-header">
+                    How do I know my ring size?
+                    <i class="fas fa-chevron-down"></i>
+                </h3>
+                <div class="accordion-content">
+                    <p>Match the inside edge of the ring with the circles on the chart until you find the correct size.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header">
+                    Do you offer exchanges if I’m not satisfied?
+                    <i class="fas fa-chevron-down"></i>
+                </h3>
+                <div class="accordion-content">
+                    <p>Yes, we do! If you're not completely satisfied with your purchase, we offer hassle-free exchanges within [X] days of delivery. The item must be unused, in its original condition, and returned with the original packaging.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header">
+                    Do you offer financing or installment plans?
+                    <i class="fas fa-chevron-down"></i>
+                </h3>
+                <div class="accordion-content">
+                    <p>Yes, we do! To make your shopping experience more flexible, we offer financing and installment payment options through trusted partners like [insert provider name, e.g., Razorpay, Simpl, Afterpay, etc.].</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+
+
+
+
+
+
+
+     <!-- footer start -->
+
+
+    <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>Useful Links</h4>
+        <ul>
+          <li>Delivery Details</li>
+          <li>International Shipping</li>
+          <li>Payment Options</li>
+          <li>Track Your Order</li>
+          <li>Return</li>
+          <li>Find a Store</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Information</h4>
+        <ul>
+          <li>Careers</li>
+          <li>Blog</li>
+          <li>Offers Details</li>
+          <li>Help & FAQs</li>
+          <li>About Us</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Contact Us</h4>
+        <ul>
+          <a href="mailto:arsadbukshan36@gmail.com" target="_blank"><li><i class="fas fa-envelope"></i> arsadbukshan36@gmail.com</li></a>
+          <a href="tel:+917397238290" target="_blank"><li><i class="fas fa-phone"></i> +91-73972 38290</li></a>
+          <a href="https://wa.me/917397238290?text=Hi%20there%2C%20I%20want%20to%20know%20more%20about%20your%20services." target="_blank"><li><i class="fas fa-comment"></i> Chat to Us</li></a>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Download The Apps</h4>
+        <div class="app-buttons">
+          <a href="https://play.google.com/store/games?device=windows" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play"></a>
+          <a href="https://www.apple.com/app-store/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store"></a>
+        </div>
+
+        <div class="social">
+          <span>Follow Us On</span>
+          <a href="https://www.behance.net/arsadbukshan" target="_blank"><i class="fa-brands fa-behance"></i></a>
+          <a href="https://www.linkedin.com/in/arsad-bukshan-k-4019192b8/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></i></a>
+          <a href="https://www.instagram.com/arsad.draftz/"><i class="fab fa-instagram"></i></a>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 RVA Jewelery Limited. All Right Reserved.<br><br>
+        <a href="#">Team & Conditions</a> | <a href="#">Privacy Policy</a></p>
+    </div>
+  </footer>
+    
+
+
+
+
+
+    <script src="./js/contact.js"></script>
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
