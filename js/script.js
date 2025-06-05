@@ -14,36 +14,6 @@ hamburger.addEventListener('click', () => {
 });
 
 overlay.addEventListener('click', closeMobileMenu);
-
-// navLinks.forEach(link => {
-//     link.addEventListener('click', (e) => {
-
-//         navLinks.forEach(l => l.classList.remove('active'));
-//         let result = e.target
-//         result.classList.add('active')
-
-//         if (navMenu.classList.contains('active')) {
-//             closeMobileMenu();
-//         }
-//     });
-// });
-// navLinks.forEach(link => {
-//     link.addEventListener('click', (e) => {
-//       let result = e.target
-//       navLinks.forEach(l=> l.classList.remove('active'));
-//       result.classList.add('active');
-//         });
-//     });
-
-
-// let navLink = document.querySelectorAll('.nav-item a');
-
-// navLink.addEventListener('click', (e) => {
-//     let result = e.target
-//     navLink.classList.remove('active');
-//     result.classList.add('active');
-// });
-
 function closeMobileMenu() {
     hamburger.classList.remove('active');
     navMenu.classList.remove('active');
@@ -81,9 +51,3 @@ window.addEventListener('mousemove', e => {
 
 
 // cursor end
-
-
-
-
-
-

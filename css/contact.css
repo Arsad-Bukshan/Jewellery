@@ -101,8 +101,13 @@
       color: white;
       border: none;
       padding: 10px;
-      border-radius: 5px;
+      border-radius: 30px;
       cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background: #b04bb0;
+      transition-duration: 0.7s;
     }
 
     .error {
