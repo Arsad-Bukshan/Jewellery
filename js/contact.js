@@ -6,7 +6,7 @@
     document.getElementById("formMessage").textContent = "";
 
     let firstName = document.getElementById("firstName").value.trim();
-    const lastName = document.getElementById("lastName").value.trim();
+    let lastName = document.getElementById("lastName").value.trim();
     let email = document.getElementById("email").value.trim();
     let phone = document.getElementById("phone").value.trim();
     let message = document.getElementById("message").value.trim();
@@ -22,7 +22,7 @@
       document.getElementById("lastNameError").textContent = "Please enter your last name.";
     }
 
-    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    let emailPattern = /^[^\s@_][^\s@]*@[^\s@]+\.[^\s@]+$/;;
     if (!email || !emailPattern.test(email)) {
       isValid = false;
       document.getElementById("emailError").textContent = "Enter a valid email address.";
