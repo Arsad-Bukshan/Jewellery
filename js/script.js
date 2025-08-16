@@ -51,3 +51,19 @@ window.addEventListener('mousemove', e => {
 
 
 // cursor end
+
+
+
+// Modal
+
+$(document).ready(function() {
+    
+
+    // Show the popup after 2 seconds
+    setTimeout(function() {
+        $('.modal').fadeIn(1000);
+    }, 2000);
+    $('#close-popup').click(function() {
+        $('.modal').fadeOut(1000);
+    });
+});

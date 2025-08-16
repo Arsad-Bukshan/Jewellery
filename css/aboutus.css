@@ -259,7 +259,7 @@ h1, h2, h3 {
     }
 
     .visit-images {
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
     }
 
     .hero-content h1 {

@@ -11,7 +11,16 @@
     <link rel="stylesheet" href="./css/home.css">
 </head>
 
-<body>
+<body onload="showPopup()">
+
+      <!-- Modal -->
+
+    <section class="modal">
+    <div class="popup">
+        <img src="./Image/Home/modal.png" alt="LuxTime Popup Image">
+        <button id="close-popup">X</button>     
+    </div>
+</section>
 
 
     <!-- Nav start -->
@@ -51,6 +60,9 @@
     <!-- Nav end -->
 
 
+
+
+
     <!-- cursor start -->
 
 
@@ -65,21 +77,21 @@
     <img src="./Image/Home/one.png" alt="Diamond Rings" />
     <h2>Our Store</h2>
     <p>Explore our exclusive collection of engagement rings, wedding bands, and fine jewelry crafted to perfection. Every piece is a symbol of timeless elegance and luxury.</p>
-    <a href="#">Discover More</a>
+    <a href="./product.html">Shop Now</a>
   </div>
 
   <div class="section">
     <img src="./Image/Home/two.png" alt="Made with Love Rings" />
     <h2>Made & Love</h2>
     <p>Handcrafted with love and precision, our pieces embody beauty, devotion, and sophistication. Perfect for celebrating life's most treasured moments.</p>
-    <a href="#">Explore Collection</a>
+    <a href="./product.html">Shop Now</a>
   </div>
 
   <div class="section">
     <img src="./Image/Home/three.png" alt="Statement Necklace" />
     <h2>Jewelry that Captivates</h2>
     <p>Make a statement with our bold and breathtaking jewelry that turns heads and captures hearts. Designed for the confident and the stylish.</p>
-    <a href="#">View Details</a>
+    <a href="./product.html">Shop Now</a>
   </div>
 
   <div class="section">
@@ -87,7 +99,7 @@
     <h2>Golden Moments</h2>
     
     <p>Embrace golden moments with our delicate pendants and necklaces, each telling its own story. A perfect gift for someone special—or yourself.</p>
-    <a href="#">Shop Now</a>
+    <a href="./product.html">Shop Now</a>
   </div>
 
 
@@ -100,7 +112,7 @@
 <footer class="footer">
     <div class="footer-container">
       <div class="footer-column">
-        <h4>Useful Links</h4>
+        <!-- <h4>Useful Links</h4>
         <ul>
           <li>Delivery Details</li>
           <li>International Shipping</li>
@@ -108,17 +120,22 @@
           <li>Track Your Order</li>
           <li>Return</li>
           <li>Find a Store</li>
-        </ul>
+        </ul> -->
+
+        <a href="#" class="logo">
+                <span class="logo-text">RVA Jewellers</span>
+            </a>
+            <p>"RVA Jewellery Timeless designs, crafted to make every moment sparkle."</p>
       </div>
 
       <div class="footer-column">
         <h4>Information</h4>
         <ul>
-          <li>Careers</li>
-          <li>Blog</li>
-          <li>Offers Details</li>
-          <li>Help & FAQs</li>
-          <li>About Us</li>
+          <a href="#"><li>Careers</li></a>
+          <a href="#"><li>Blog</li></a>
+          <a href="#"><li>Offers Details</li></a>
+          <a href="#"><li>Help & FAQs</li></a>
+          <a href="#"><li>About Us</li></a>
         </ul>
       </div>
 
@@ -151,14 +168,17 @@
       <p>&copy; 2025 RVA Jewelery Limited. All Right Reserved.<br><br>
         <a href="#">Team & Conditions</a> | <a href="#">Privacy Policy</a></p>
     </div>
+
+  <h6 class="author">Designed and Developed by  <a href="https://www.instagram.com/arsad.draftz/" target="_blank"> Arsad Bukshan</a></h6>
   </footer>
     
 
 
 
 
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./js/script.js"></script>
+
 
 </body>
 

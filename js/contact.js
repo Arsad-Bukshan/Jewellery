@@ -20,7 +20,7 @@
     if (!lastName) {
       isValid = false;
       document.getElementById("lastNameError").textContent = "Please enter your last name.";
-    }
+    } 
 
     let emailPattern = /^[^\s@_][^\s@]*@[^\s@]+\.[^\s@]+$/;;
     if (!email || !emailPattern.test(email)) {
