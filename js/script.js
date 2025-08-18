@@ -47,7 +47,20 @@ let cursorDot = document.querySelector('.cursor-dot');
 window.addEventListener('mousemove', e => {
     cursorDot.style.top = `${e.clientY}px`;
     cursorDot.style.left = `${e.clientX}px`;
+ 
+
+
+
 });
+
+if (window.innerHeight<700) {
+    cursorDot.classList.add('active');
+
+} 
+else {
+    cursorDot.classList.remove('active');
+}
+
 
 
 // cursor end

@@ -12,17 +12,19 @@
     let message = document.getElementById("message").value.trim();
     let subject = document.querySelector("input[name='subject']:checked");
 
-    if (!firstName) {
+    let firstNamePattern = /^[A-Za-z]+$/;
+    if (!firstName || !firstNamePattern.test(firstName)) {
       isValid = false;
-      document.getElementById("firstNameError").textContent = "Please enter your first name.";
+      document.getElementById("firstNameError").textContent = "Please enter a valid first name.";
     }
 
-    if (!lastName) {
+    let lastNamePattern = /^[A-Za-z]+$/;
+    if (!lastName || !lastNamePattern.test(lastName)) {
       isValid = false;
       document.getElementById("lastNameError").textContent = "Please enter your last name.";
     } 
 
-    let emailPattern = /^[^\s@_][^\s@]*@[^\s@]+\.[^\s@]+$/;;
+    let emailPattern =  /^[A-Za-z][^\s@]*@[^\s@]+\.[^\s@]+$/;
     if (!email || !emailPattern.test(email)) {
       isValid = false;
       document.getElementById("emailError").textContent = "Enter a valid email address.";
@@ -39,7 +41,8 @@
       document.getElementById("subjectError").textContent = "Please select a subject.";
     }
 
-    if (!message) {
+    let messagePattern = /^[A-Za-z0-9\s]+$/; 
+    if (!message || !messagePattern.test(message)) {
       isValid = false;
       document.getElementById("messageError").textContent = "Message cannot be empty.";
     }

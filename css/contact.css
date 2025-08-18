@@ -25,7 +25,7 @@
     }
 
     .contact-left {
-      background: url('../Image/Contact/Banner.jpg') no-repeat center center;
+      background: url('../Image/Contact/jwellery.png') no-repeat center center;
       background-size: cover;
     }
 
@@ -86,6 +86,7 @@
     .radio-group {
       display: flex;
       gap: 10px;
+      flex-wrap: wrap;
       margin-top: 10px;
       cursor: pointer;
     }

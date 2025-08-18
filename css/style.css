@@ -259,6 +259,7 @@ body {
 }
 
 
+
 /* cursor end */
 
 
@@ -297,7 +298,7 @@ body {
     }
 
     .footer-column {
-      flex: 1;
+      /* flex: 1; */
       min-width: 200px;
       margin-bottom: 20px;
       
@@ -404,6 +405,12 @@ body {
         width: 100%;
         margin-bottom: 30px;
       }
+      .cursor-dot .active{
+  width: 0px;
+  height: 0px;
+  display: none;
+  
+}
     }
 
 
