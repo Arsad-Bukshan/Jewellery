@@ -144,6 +144,14 @@
 
 }
 
+@media (max-width: 425px) {
+
+   .contact  {
+    margin-bottom: 10%;
+   }
+
+}
+
 
     @media (max-width: 768px) {
      .container {
