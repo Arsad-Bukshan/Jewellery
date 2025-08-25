@@ -499,6 +499,30 @@ body {
     transition: transform 0.3s ease;
 }
 
+.category-item i {
+    color: #FB6EEB;
+    margin-left: 5px;
+}
+
+.category-item a {
+    color: #FB6EEB;
+    margin-left: 5px;
+ border-bottom: 1px solid #FB6EEB;
+}
+
+.category-item a:hover {
+    color: #b505a1;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+.category-item i:hover {
+    color: #b505a1;
+    margin-left: 5px;
+    translate: 2px;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
 .category-item:hover {
     transform: translateY(-5px);
 }

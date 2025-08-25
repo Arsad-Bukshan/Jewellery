@@ -309,6 +309,10 @@ body {
       padding: 0;
     }
 
+    .address{
+      color: #FB6EEB;
+    }
+
     .footer-column p {
       margin-top: 20px;
     }
